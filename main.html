@@ -7,47 +7,53 @@
     <title>Document</title>
   </head>
   <body>
-    <table>
-      <tr>
-        <td><label for="name">Name</label></td>
-        <td><input id="name" type="text" placeholder="Name" required /></td>
-      </tr>
-      <tr>
-        <td><label for="email">Email</label></td>
-        <td><input id="email" type="email" placeholder="Email-id" required /></td>
-      </tr>
-      <tr>
-        <td><label for="gender">Gender</label></td>
-        <td>
-          <label for="male">Male</label>
-          <input id="male" name="gender" type="radio" value="Male" />
-          <label for="female">Female</label>
-          <input id="female" name="gender" type="radio" value="Female" />
-        </td>
-      </tr>
-      <tr>
-        <td><label for="laptop">Laptop Brands:</label></td>
-        <td>
-          <select id="laptop">
-            <option value="apple">Apple</option>
-            <option value="asus">Asus</option>
-            <option value="hp">HP</option>
-          </select>
-        </td>
-      </tr>
-      <tr>
-        <td><label for="age">Age</label></td>
-        <td><input id="age" type="number" placeholder="Age" /></td>
-      </tr>
-      <tr>
-        <td><label for="dob">DOB</label></td>
-        <td><input id="dob" type="date" placeholder="DOB" required /></td>
-      </tr>
-      <tr>
-        <td><label for="pass">Password</label></td>
-        <td><input id="pass" type="password" placeholder="Password" required /></td>
-      </tr>
-    </table>
-    <button>Submit</button>
+    <form>
+      <table>
+        <tr>
+          <td><label for="name">Name</label></td>
+          <td><input id="name" type="text" placeholder="Name" required /></td>
+        </tr>
+        <tr>
+          <td><label for="email">Email</label></td>
+          <td>
+            <input id="email" type="email" placeholder="Email-id" required />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="gender">Gender</label></td>
+          <td>
+            <label for="male">Male</label>
+            <input id="male" name="gender" type="radio" value="Male" />
+            <label for="female">Female</label>
+            <input id="female" name="gender" type="radio" value="Female" />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="laptop">Laptop Brands:</label></td>
+          <td>
+            <select id="laptop">
+              <option value="apple">Apple</option>
+              <option value="asus">Asus</option>
+              <option value="hp">HP</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="age">Age</label></td>
+          <td><input id="age" type="number" placeholder="Age" required /></td>
+        </tr>
+        <tr>
+          <td><label for="dob">DOB</label></td>
+          <td><input id="dob" type="date" placeholder="DOB" required /></td>
+        </tr>
+        <tr>
+          <td><label for="pass">Password</label></td>
+          <td>
+            <input id="pass" type="password" placeholder="Password" required />
+          </td>
+        </tr>
+      </table>
+      <button>Submit</button>
+    </form>
   </body>
 </html>
